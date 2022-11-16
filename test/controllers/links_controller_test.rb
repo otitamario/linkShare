@@ -1,8 +1,9 @@
-require "test_helper"
+require 'test_helper'
 
 class LinksControllerTest < ActionDispatch::IntegrationTest
   setup do
     @link = links(:one)
+    # add lines here
   end
 
   test "should get index" do
@@ -23,6 +24,8 @@ class LinksControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to link_url(Link.last)
   end
 
+  # add lines here
+  
   test "should show link" do
     get link_url(@link)
     assert_response :success

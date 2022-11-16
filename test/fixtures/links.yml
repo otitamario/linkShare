@@ -1,9 +1,13 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# Replace or add lines
 one:
   title: MyString
   url: MyString
+  # to handle the association b/w User and Link
+  user: test_user
 
 two:
   title: MyString
   url: MyString
+  # to handle the association b/w User and Link
+  user: test_user
